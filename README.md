@@ -221,6 +221,9 @@ Admin-only endpoints require the JWT token of a user with `"role": "admin"`.
 ### Student Endpoints
 
 #### Register (Signup)
+
+![image](https://github.com/user-attachments/assets/48ca2006-1392-4ce5-b08e-0b9df7fad5e9)
+
 **POST** `/api/students/signup`
 ```json
 {
@@ -239,7 +242,6 @@ Admin-only endpoints require the JWT token of a user with `"role": "admin"`.
   }
 }
 
-![image](https://github.com/user-attachments/assets/48ca2006-1392-4ce5-b08e-0b9df7fad5e9)
 
 ```
 
@@ -261,6 +263,9 @@ Admin-only endpoints require the JWT token of a user with `"role": "admin"`.
 
 #### Update Profile
 **PUT** `/api/students/me`
+
+![image](https://github.com/user-attachments/assets/6aa87a8c-85ef-4263-b926-6180bde39071)
+
 - **Headers:** `Authorization: Bearer <STUDENT_JWT_TOKEN>`
 ```json
 {
@@ -275,7 +280,6 @@ Admin-only endpoints require the JWT token of a user with `"role": "admin"`.
   }
 }
 
-![image](https://github.com/user-attachments/assets/6aa87a8c-85ef-4263-b926-6180bde39071)
 
 ```
 
@@ -285,6 +289,9 @@ Admin-only endpoints require the JWT token of a user with `"role": "admin"`.
 
 #### Create Admin
 **POST** `/api/students/create-admin`
+
+![image](https://github.com/user-attachments/assets/a698978c-3f65-469f-94c0-b9b27f63cdfa)
+
 - **Headers:** `X-Admin-Secret: <your-admin-secret>`
 ```json
 {
@@ -303,7 +310,6 @@ Admin-only endpoints require the JWT token of a user with `"role": "admin"`.
   }
 }
 
-![image](https://github.com/user-attachments/assets/a698978c-3f65-469f-94c0-b9b27f63cdfa)
 
 ```
 
@@ -320,12 +326,12 @@ Admin-only endpoints require the JWT token of a user with `"role": "admin"`.
 **GET** `/api/students/admins`
 - **Headers:** `Authorization: Bearer <ADMIN_JWT_TOKEN>`
 
-![image](https://github.com/user-attachments/assets/e0217d96-9786-4176-a77b-284f9818cdf5)
+
 
 
 
 ![image](https://github.com/user-attachments/assets/07665231-a188-4826-bf3d-dfdb1d556629)
-
+![image](https://github.com/user-attachments/assets/e0217d96-9786-4176-a77b-284f9818cdf5)
 ---
 
 ### Course Endpoints
@@ -351,8 +357,8 @@ Admin-only endpoints require the JWT token of a user with `"role": "admin"`.
   }
 }
 
-![image](https://github.com/user-attachments/assets/0679e654-2b59-4bd1-b806-ba519512b1d6)
 
+![image](https://github.com/user-attachments/assets/0679e654-2b59-4bd1-b806-ba519512b1d6)
 ```
 
 #### Get All Courses
