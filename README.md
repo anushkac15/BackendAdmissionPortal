@@ -217,13 +217,14 @@ Authorization: Bearer <JWT_TOKEN>
 Admin-only endpoints require the JWT token of a user with `"role": "admin"`.
 
 ---
+![image](https://github.com/user-attachments/assets/07665231-a188-4826-bf3d-dfdb1d556629)
 
 ### Student Endpoints
 
-![image](https://github.com/user-attachments/assets/48ca2006-1392-4ce5-b08e-0b9df7fad5e9)
 
 #### Register (Signup)
 
+![image](https://github.com/user-attachments/assets/48ca2006-1392-4ce5-b08e-0b9df7fad5e9)
 
 **POST** `/api/students/signup`
 ```json
@@ -332,7 +333,6 @@ Admin-only endpoints require the JWT token of a user with `"role": "admin"`.
 
 
 
-![image](https://github.com/user-attachments/assets/07665231-a188-4826-bf3d-dfdb1d556629)
 ![image](https://github.com/user-attachments/assets/e0217d96-9786-4176-a77b-284f9818cdf5)
 ---
 
