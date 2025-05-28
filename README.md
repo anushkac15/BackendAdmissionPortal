@@ -59,7 +59,7 @@ admission-portal-backend/
 ### 2. Setup & Run (with Docker)
 1. **Clone or Download the Project**
    ```bash
-   git clone <your-repo-url>
+   git clone <https://github.com/anushkac15/BackendAdmissionPortal>
    cd admission-portal-backend
    ```
 2. **Check/Edit the `.env` File**
