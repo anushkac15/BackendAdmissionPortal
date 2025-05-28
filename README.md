@@ -220,9 +220,10 @@ Admin-only endpoints require the JWT token of a user with `"role": "admin"`.
 
 ### Student Endpoints
 
+![image](https://github.com/user-attachments/assets/48ca2006-1392-4ce5-b08e-0b9df7fad5e9)
+
 #### Register (Signup)
 
-![image](https://github.com/user-attachments/assets/48ca2006-1392-4ce5-b08e-0b9df7fad5e9)
 
 **POST** `/api/students/signup`
 ```json
@@ -258,14 +259,15 @@ Admin-only endpoints require the JWT token of a user with `"role": "admin"`.
 #### Get Profile
 **GET** `/api/students/me`
 - **Headers:** `Authorization: Bearer <STUDENT_JWT_TOKEN>`
-
+  
 ![image](https://github.com/user-attachments/assets/da9535fa-8b66-4532-8c1c-b5fd161dbd01)
 
+
 #### Update Profile
-**PUT** `/api/students/me`
 
 ![image](https://github.com/user-attachments/assets/6aa87a8c-85ef-4263-b926-6180bde39071)
 
+**PUT** `/api/students/me`
 - **Headers:** `Authorization: Bearer <STUDENT_JWT_TOKEN>`
 ```json
 {
@@ -288,10 +290,10 @@ Admin-only endpoints require the JWT token of a user with `"role": "admin"`.
 ### Admin Endpoints
 
 #### Create Admin
-**POST** `/api/students/create-admin`
 
 ![image](https://github.com/user-attachments/assets/a698978c-3f65-469f-94c0-b9b27f63cdfa)
 
+**POST** `/api/students/create-admin`
 - **Headers:** `X-Admin-Secret: <your-admin-secret>`
 ```json
 {
@@ -358,8 +360,8 @@ Admin-only endpoints require the JWT token of a user with `"role": "admin"`.
 }
 
 
-![image](https://github.com/user-attachments/assets/0679e654-2b59-4bd1-b806-ba519512b1d6)
 ```
+![image](https://github.com/user-attachments/assets/0679e654-2b59-4bd1-b806-ba519512b1d6)
 
 #### Get All Courses
 **GET** `/api/courses`
@@ -440,9 +442,9 @@ Admin-only endpoints require the JWT token of a user with `"role": "admin"`.
   }
 }
 
-![image](https://github.com/user-attachments/assets/c94576a4-862d-4308-b13c-cdf13095c52f)
 
 ```
+![image](https://github.com/user-attachments/assets/c94576a4-862d-4308-b13c-cdf13095c52f)
 
 #### Get All Admissions
 **GET** `/api/admissions`
@@ -456,6 +458,8 @@ Admin-only endpoints require the JWT token of a user with `"role": "admin"`.
 
 
 #### Update Admission Status (Admin Only)
+![image](https://github.com/user-attachments/assets/dadf5d8e-4439-4109-9119-d924633d8faf)
+![image](https://github.com/user-attachments/assets/d3b513d0-0238-4083-a6cf-0d944ce95217)
 **PUT** `/api/admissions/:id`
 - **Headers:** `Authorization: Bearer <ADMIN_JWT_TOKEN>`
 ```json
@@ -465,15 +469,8 @@ Admin-only endpoints require the JWT token of a user with `"role": "admin"`.
 }
 
 
-![image](https://github.com/user-attachments/assets/dadf5d8e-4439-4109-9119-d924633d8faf)
-![image](https://github.com/user-attachments/assets/d3b513d0-0238-4083-a6cf-0d944ce95217)
-
-
-![image](https://github.com/user-attachments/assets/7ff22180-ee1b-4856-8ec9-33a96f8e78d9)
-
-
-
 ```
+![image](https://github.com/user-attachments/assets/7ff22180-ee1b-4856-8ec9-33a96f8e78d9)
 
 ---
 
