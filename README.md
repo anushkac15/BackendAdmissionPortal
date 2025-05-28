@@ -238,6 +238,9 @@ Admin-only endpoints require the JWT token of a user with `"role": "admin"`.
     "country": "India"
   }
 }
+
+![image](https://github.com/user-attachments/assets/48ca2006-1392-4ce5-b08e-0b9df7fad5e9)
+
 ```
 
 #### Student Login
@@ -247,11 +250,14 @@ Admin-only endpoints require the JWT token of a user with `"role": "admin"`.
   "email": "test.user@example.com",
   "password": "password123"
 }
+
 ```
 
 #### Get Profile
 **GET** `/api/students/me`
 - **Headers:** `Authorization: Bearer <STUDENT_JWT_TOKEN>`
+
+- ![image](https://github.com/user-attachments/assets/da9535fa-8b66-4532-8c1c-b5fd161dbd01)
 
 #### Update Profile
 **PUT** `/api/students/me`
@@ -268,6 +274,9 @@ Admin-only endpoints require the JWT token of a user with `"role": "admin"`.
     "country": "India"
   }
 }
+
+![image](https://github.com/user-attachments/assets/6aa87a8c-85ef-4263-b926-6180bde39071)
+
 ```
 
 ---
@@ -293,6 +302,9 @@ Admin-only endpoints require the JWT token of a user with `"role": "admin"`.
     "country": "India"
   }
 }
+
+![image](https://github.com/user-attachments/assets/a698978c-3f65-469f-94c0-b9b27f63cdfa)
+
 ```
 
 #### Admin Login
@@ -307,6 +319,12 @@ Admin-only endpoints require the JWT token of a user with `"role": "admin"`.
 #### List Admins
 **GET** `/api/students/admins`
 - **Headers:** `Authorization: Bearer <ADMIN_JWT_TOKEN>`
+
+![image](https://github.com/user-attachments/assets/e0217d96-9786-4176-a77b-284f9818cdf5)
+
+
+
+![image](https://github.com/user-attachments/assets/07665231-a188-4826-bf3d-dfdb1d556629)
 
 ---
 
@@ -332,15 +350,24 @@ Admin-only endpoints require the JWT token of a user with `"role": "admin"`.
     "otherFees": 2000
   }
 }
+
+![image](https://github.com/user-attachments/assets/0679e654-2b59-4bd1-b806-ba519512b1d6)
+
 ```
 
 #### Get All Courses
 **GET** `/api/courses`
 - **Headers:** `Authorization: Bearer <STUDENT_JWT_TOKEN>`
 
+- ![image](https://github.com/user-attachments/assets/7e0e6477-df3d-4820-a11b-df8538f15062)
+
+
 #### Get Course by ID
 **GET** `/api/courses/:id`
 - **Headers:** `Authorization: Bearer <STUDENT_JWT_TOKEN>`
+
+- ![image](https://github.com/user-attachments/assets/abc4fdec-0c8a-4769-8b8a-7570e8270fca)
+
 
 #### Update Course (Admin Only)
 **PUT** `/api/courses/:id`
@@ -361,6 +388,10 @@ Admin-only endpoints require the JWT token of a user with `"role": "admin"`.
 #### Delete Course (Admin Only)
 **DELETE** `/api/courses/:id`
 - **Headers:** `Authorization: Bearer <ADMIN_JWT_TOKEN>`
+
+
+
+![image](https://github.com/user-attachments/assets/97b89a76-758e-438f-aea2-25e2c47006b4)
 
 ---
 
@@ -402,6 +433,9 @@ Admin-only endpoints require the JWT token of a user with `"role": "admin"`.
     "qualificationCertificates": ["cert1.pdf", "cert2.pdf"]
   }
 }
+
+![image](https://github.com/user-attachments/assets/c94576a4-862d-4308-b13c-cdf13095c52f)
+
 ```
 
 #### Get All Admissions
@@ -411,6 +445,8 @@ Admin-only endpoints require the JWT token of a user with `"role": "admin"`.
 #### Get Admission by ID
 **GET** `/api/admissions/:id`
 - **Headers:** `Authorization: Bearer <STUDENT_JWT_TOKEN>`
+- ![image](https://github.com/user-attachments/assets/4c10adae-8956-43e0-8b74-d865962fc8b2)
+
 
 #### Update Admission Status (Admin Only)
 **PUT** `/api/admissions/:id`
@@ -420,6 +456,15 @@ Admin-only endpoints require the JWT token of a user with `"role": "admin"`.
   "status": "approved",
   "comments": "Application approved after review"
 }
+
+![image](https://github.com/user-attachments/assets/dadf5d8e-4439-4109-9119-d924633d8faf)
+![image](https://github.com/user-attachments/assets/d3b513d0-0238-4083-a6cf-0d944ce95217)
+
+
+![image](https://github.com/user-attachments/assets/7ff22180-ee1b-4856-8ec9-33a96f8e78d9)
+
+
+
 ```
 
 ---
@@ -491,10 +536,6 @@ go test ./...
 
 ---
 
-## 📄 License
-MIT
-
----
 
 ## ⚠️ MongoDB Credentials Notice
 > Security & Best Practice:
