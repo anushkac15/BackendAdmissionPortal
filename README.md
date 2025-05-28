@@ -442,11 +442,6 @@ go test ./...
 
 ---
 
-## 📄 License
-MIT
-
----
-
 ## ⚠️ MongoDB Credentials Notice
 > Security & Best Practice:
 > For demonstration purposes, this project is configured with a temporary MongoDB connection string.
