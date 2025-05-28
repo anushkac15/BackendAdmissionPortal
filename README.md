@@ -257,7 +257,7 @@ Admin-only endpoints require the JWT token of a user with `"role": "admin"`.
 **GET** `/api/students/me`
 - **Headers:** `Authorization: Bearer <STUDENT_JWT_TOKEN>`
 
-- ![image](https://github.com/user-attachments/assets/da9535fa-8b66-4532-8c1c-b5fd161dbd01)
+![image](https://github.com/user-attachments/assets/da9535fa-8b66-4532-8c1c-b5fd161dbd01)
 
 #### Update Profile
 **PUT** `/api/students/me`
@@ -359,14 +359,14 @@ Admin-only endpoints require the JWT token of a user with `"role": "admin"`.
 **GET** `/api/courses`
 - **Headers:** `Authorization: Bearer <STUDENT_JWT_TOKEN>`
 
-- ![image](https://github.com/user-attachments/assets/7e0e6477-df3d-4820-a11b-df8538f15062)
+![image](https://github.com/user-attachments/assets/7e0e6477-df3d-4820-a11b-df8538f15062)
 
 
 #### Get Course by ID
 **GET** `/api/courses/:id`
 - **Headers:** `Authorization: Bearer <STUDENT_JWT_TOKEN>`
 
-- ![image](https://github.com/user-attachments/assets/abc4fdec-0c8a-4769-8b8a-7570e8270fca)
+![image](https://github.com/user-attachments/assets/abc4fdec-0c8a-4769-8b8a-7570e8270fca)
 
 
 #### Update Course (Admin Only)
@@ -445,7 +445,8 @@ Admin-only endpoints require the JWT token of a user with `"role": "admin"`.
 #### Get Admission by ID
 **GET** `/api/admissions/:id`
 - **Headers:** `Authorization: Bearer <STUDENT_JWT_TOKEN>`
-- ![image](https://github.com/user-attachments/assets/4c10adae-8956-43e0-8b74-d865962fc8b2)
+
+![image](https://github.com/user-attachments/assets/4c10adae-8956-43e0-8b74-d865962fc8b2)
 
 
 #### Update Admission Status (Admin Only)
@@ -456,6 +457,7 @@ Admin-only endpoints require the JWT token of a user with `"role": "admin"`.
   "status": "approved",
   "comments": "Application approved after review"
 }
+
 
 ![image](https://github.com/user-attachments/assets/dadf5d8e-4439-4109-9119-d924633d8faf)
 ![image](https://github.com/user-attachments/assets/d3b513d0-0238-4083-a6cf-0d944ce95217)
